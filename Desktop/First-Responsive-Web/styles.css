@@ -1,0 +1,239 @@
+
+  .name {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1;
+    height: 300px;
+    background-color: teal;
+    margin: auto 0px 0px 0px;
+    border: white 6px;
+    border-style: solid;
+    border-bottom: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+@media (max-width: 576px){
+  .name {
+    display: grid;
+
+    font-family: Arial;
+    border: none;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+   
+    background: rgb(83, 133, 235);
+   
+  
+   
+  }
+}
+  
+  body {
+    display: grid;  
+    background-color: white;
+    background-size: cover;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: 33% 34% 33%;
+    align-items: center;
+    
+  }
+  @media (max-width: 576px){
+    body {
+      display: grid;  
+      background-color: white;
+      grid-template-columns: 100%;
+      grid-template-rows: 25% 25% 25% 25%;
+      align-items: center;
+      border: none;
+    }
+  }
+  
+  .title-1{
+    display: grid;
+    height: 400px;
+    width: 630px;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+    margin: 3em auto auto auto;
+    border: white 6px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+  }
+  @media (max-width: 576px){
+    .title-1{
+      display: grid;
+      background-color: white;
+      color: black;
+      display: grid;
+      grid-column: 1;
+      grid-row: 2;
+      text-align: center;
+      align-items: center;
+      border: none;
+      width: 200px;
+      
+    }
+  }
+ 
+  .title-2 {
+
+    display: grid;
+    height: 400px;
+    width: 650px;
+    grid-column: 2;
+    grid-row: 2;
+    background: rgb(29, 29, 29);
+    text-align: center;
+    align-items: center;
+    margin: 3em auto auto auto;
+    border: white 6px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  @media (max-width: 576px){
+    .title-2{
+      display: grid;
+      background-color: white;
+      display: grid;
+      grid-column: 1;
+      grid-row: 3;
+      text-align: center;
+      border: none;
+      width: 200px;
+  }
+}
+  
+  
+  
+  .title-3 {
+
+    display: grid;
+    height: 400px;
+    width: 622px;
+    grid-column: 3;
+    grid-row: 2;
+    background: rgb(29, 29, 29);
+    text-align: center;
+    align-items: center;
+    border: white 6px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    margin: 3em auto auto auto;
+  }
+
+  @media (max-width: 576px){
+    .title-3{
+      display: grid;
+      background-color: white;
+      display: grid;
+      grid-column: 1;
+      grid-row: 4;
+      text-align: center;
+      border: none;
+      width: 200px;
+  }
+}
+  
+  .color-box{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: blue;
+    height: 30px;
+    width: 200px;
+    align-items: center;
+    margin: 5em auto auto auto;
+  }
+  @media (max-width: 576px){
+    .color-box{
+      display: grid;
+      background-color: blue;
+      display: grid;
+      grid-column: 1;
+      grid-row: 2;
+      margin: 5em auto auto auto;
+    
+  }
+}
+  
+  .color-box2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: tomato;
+    height: 30px;
+    width: 200px;
+    margin: 5em auto auto auto;
+  }
+
+  @media (max-width: 576px){
+    .color-box2{
+      display: grid;
+      background-color: tomato;
+      display: grid;
+      grid-column: 1;
+      grid-row: 3;
+      text-align: center;
+     
+  }
+}
+  
+  .color-box3{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: aqua;
+    height: 30px;
+    width: 200px;
+    margin: 5em auto auto auto;
+  }
+
+  @media (max-width: 576px){
+    .color-box3{
+      display: grid;
+      background-color: aqua;
+      display: grid;
+      grid-column: 1;
+      grid-row: 4;
+      align-items: center;
+    
+      border: none;
+  }
+}
+  
+  h1{
+    color: white;
+    margin: 4em auto auto auto;
+  
+  }
+
+  h3, h4, h2 {
+    display: grid;
+    color: white;
+    margin: 100px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin: 100px auto auto auto;
+
+  } 
+
+  p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: -3em auto auto auto;
+  }
+  @media (max-width: 576px){
+    h3, h4, h2, p{
+    color: black;
+    }
+  }
